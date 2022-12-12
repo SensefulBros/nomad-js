@@ -1,3 +1,3 @@
 # Nomad Coder JS class
 
-Started 2022 - Dec 11th
+Started 12/11/2022
