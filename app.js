@@ -1,3 +1,10 @@
+// Array
+const Eddyy = [1, "Ed", "/Haed", true]
+
+console.log(Eddyy[2]);
+Eddyy[2] = "Headword "
+Eddyy.push("Edword")
+
 // Object *************************
 const Eddy = {
     age: 36,
@@ -5,7 +12,7 @@ const Eddy = {
     current: "woking out",
 }
 
-console.log(Eddy);
+console.log((Eddy.love = "HEADWORD"));
 Eddy.LastName = "Park";
 console.log(Eddy);
 
@@ -19,6 +26,7 @@ function devide(a, b){
 }
 
 plus(6, 8)
+devide(8, 2)
 
 // Hands on
 const greet = {
