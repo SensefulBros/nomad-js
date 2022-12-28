@@ -14,7 +14,7 @@ const Eddy = {
 
 console.log((Eddy.love = "HEADWORD"));
 Eddy.LastName = "Park";
-console.log(Eddy);
+console.log(Eddy); 
 
 // Function *************************
 function plus(firstNumber, secondNumber){
@@ -28,13 +28,34 @@ function devide(a, b){
 plus(6, 8)
 devide(8, 2)
 
-// Hands on
-const greet = {
-    name: "eddy",
-    Hello: function (hi){
-        console.log("Hello " + hi + " Nice to meet you");
+// Hands on calculator
+const calculator = {
+    add: function (a, b) {
+        return a + b;
+    },
+    minus: function (a, b) {
+        return a - b;
+    },
+    devide: function (a, b) {
+        return a / b;
+    },
+    times: function (a, b) {
+        return a * b;
+    },
+    powerOf: function (a, b) {
+        return a ** b;
     },
 };
 
-console.log(greet.name);
-greet.Hello("Eddy")
+calculator.add(1, 2);
+
+// Return
+
+const age = 33;
+function bsAge(bs) {
+    return bs + 2;
+};
+
+const korAge = bsAge(age);
+
+console.log(korAge);
